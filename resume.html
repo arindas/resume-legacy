@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html class="e-update-animation firefox nav-header-test f-drpbox f-exlvl f-fcldr f-fdnid f-fgyru f-fmedp f-frmti f-frttl f-hittc f-hsexp f-hstad f-mpers f-mrskn f-opntd f-sauto f-sedip f-skrcn f-ssord f-stdjt f-stdps f-tmpfl e-optimization e-auto-spell-check page-finalize feature-resume-check download-file-name">
+<head>
+<meta charset="UTF-8">
+</head>
+<body class="light-bg">
+  <form id="mainForm" class="main-form" action="/">
+
+    <main id="app" role="main">
+      <section class="page-wrapper">
+        <div class="page-final">
+          <section class="container">
+            <div class="preview-container position-relative" id="resumeDoc">
+              <div class="section-loader-new d-none" id="resumeLoader"></div>
+              <div class="spellcheck-notification "><i class="fas fa-check "></i></div>
+              <div class="">
+                <div>
+                  <style type="text/css" id="static">
+                    html,
+                    body,
+                    div,
+                    span,
+                    applet,
+                    object,
+                    iframe,
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    p,
+                    blockquote,
+                    pre,
+                    a,
+                    abbr,
+                    acronym,
+                    address,
+                    big,
+                    cite,
+                    code,
+                    del,
+                    dfn,
+                    em,
+                    font,
+                    img,
+                    ins,
+                    kbd,
+                    q,
+                    s,
+                    samp,
+                    small,
+                    strike,
+                    strong,
+                    sub,
+                    sup,
+                    tt,
+                    var,
+                    b,
+                    u,
+                    i,
+                    center,
+                    dl,
+                    dt,
+                    dd,
+                    ol,
+                    ul,
+                    li,
+                    fieldset,
+                    form,
+                    label,
+                    legend,
+                    table,
+                    caption,
+                    tbody,
+                    tfoot,
+                    thead,
+                    tr,
+                    th,
+                    td {
+                      margin: 0;
+                      padding: 0;
+                      border: 0;
+                      outline: 0;
+                      vertical-align: baseline;
+                      background: transparent
+                    }
+
+                    body {
+                      background: #FFF;
+                      line-height: 1;
+                      text-align: left;
+                      font-feature-settings: "liga"0;
+                      -moz-font-feature-settings: "liga"off
+                    }
+
+                    #document.skn-mlc1 table {
+                      border-collapse: collapse;
+                      border-spacing: 0;
+                      font-size: inherit;
+                      color: inherit;
+                      width: 100%
+                    }
+
+                    /* START content disc style for LI */
+                    #document.skn-mlc1 ul,
+                    #document.skn-mlc1 li {
+                      list-style: none;
+                      margin: 0;
+                      padding: 0
+                    }
+
+                    #document.skn-mlc1 ul li {
+                      position: relative;
+                      margin: 0px;
+                      padding-left: 15px
+                    }
+
+                    #document.skn-mlc1 ul li:before {
+                      content: '\2022';
+                      font-size: 9px;
+                      position: absolute;
+                      left: 0;
+                      top: 0
+                    }
+
+                    /* END content disc style for LI */
+
+                    /* ALNK */
+                    #document.skn-mlc1 .adnlLnks .singlecolumn li {
+                      margin-bottom: 10px
+                    }
+
+                    #document.skn-mlc1 .adnlLnks .singlecolumn li:before {
+                      content: ""
+                    }
+
+                    #document.skn-mlc1 .paddedline {
+                      display: block
+                    }
+
+                    #document.skn-mlc1 .septr:before {
+                      content: "\2022";
+                      font-size: 9px;
+                      vertical-align: top;
+                      padding-left: 2px;
+                      padding-right: 2px
+                    }
+
+                    #document.skn-mlc1 .jobline ul {
+                      margin-top: 6px
+                    }
+
+                    #document.skn-mlc1 .degreeGap {
+                      margin-top: 5px
+                    }
+
+                    #document.skn-mlc1 .txtBold {
+                      font-weight: bold
+                    }
+
+                    #document.skn-mlc1 .txtItl {
+                      font-style: italic
+                    }
+
+                    #document.skn-mlc1 .sprtr {
+                      margin: 0 3px
+                    }
+
+                    #document.skn-mlc1 .displayNoneThisField {
+                      display: none
+                    }
+
+                    /*Document*/
+                    #document.skn-mlc1 {
+                      color: #343b30;
+                      line-height: 16px;
+                      font-variant-ligatures: none;
+                      word-wrap: break-word
+                    }
+
+                    #document.skn-mlc1 .sectiontitle,
+                    #document.skn-mlc1 .address .emailFld {
+                      display: table;
+                      table-layout: fixed;
+                      width: 100%
+                    }
+
+                    #document.skn-mlc1.hmargins {
+                      padding-left: 30px;
+                      padding-right: 30px
+                    }
+
+                    #document.skn-mlc1 .name {
+                      font-weight: bold;
+                      padding: 0 0 28px 0;
+                      text-align: left;
+                      letter-spacing: .5px;
+                      text-transform: uppercase;
+                      position: relative
+                    }
+
+                    #document.skn-mlc1 .name:after {
+                      content: " ";
+                      border-bottom: 1px solid #595959;
+                      margin-bottom: 15px;
+                      height: 1px;
+                      width: 32px;
+                      position: absolute;
+                      left: 0;
+                      bottom: 0;
+                      font-size: initial
+                    }
+
+                    /* CNTC */
+                    #document.skn-mlc1 .address {
+                      text-align: left
+                    }
+
+                    #document.skn-mlc1 .address .circle {
+                      background: #fff;
+                      border-radius: 100%;
+                      color: #E5B0AD;
+                      height: 15px;
+                      line-height: 15px;
+                      width: 15px;
+                      position: absolute;
+                      text-align: center;
+                      font-size: 9px
+                    }
+
+                    #document.skn-mlc1 .address .txtBold+.field {
+                      padding-left: 20px;
+                      vertical-align: top
+                    }
+
+                    #document.skn-mlc1 .address .adrs-field:first-child .field {
+                      display: inline-block
+                    }
+
+                    /* break-all for Firefox */
+                    #document.skn-mlc1 .address .adrs-field {
+                      margin-bottom: 10px;
+                      min-height: 15px
+                    }
+
+                    #document.skn-mlc1 .address .adrs-field>.addrCircle {
+                      display: table-cell;
+                      padding-left: 20px
+                    }
+
+                    /* Heading */
+                    #document.skn-mlc1 .heading {
+                      font-weight: bold;
+                      font-size: 18px;
+                      text-transform: uppercase;
+                      position: relative
+                    }
+
+                    #document.skn-mlc1 .sectiontitle {
+                      letter-spacing: 1px
+                    }
+
+                    #document.skn-mlc1 table.skills,
+                    #document.skn-mlc1 .table_wrapper {
+                      width: 100%;
+                      margin-top: 0
+                    }
+
+                    #document.skn-mlc1 table.skills th,
+                    #document.skn-mlc1 table.skills td {
+                      width: 20%;
+                      text-align: center
+                    }
+
+                    #document.skn-mlc1 table.skills th {
+                      text-decoration: underline
+                    }
+
+                    #document.skn-mlc1 table.skills .skillname,
+                    #document.skn-mlc1 table.skills .skillrating {
+                      text-align: left;
+                      width: 35%
+                    }
+
+                    #document.skn-mlc1 table.skills .skillrating {
+                      width: 20%
+                    }
+
+                    #document.skn-mlc1 table.skills .skillyears,
+                    #document.skn-mlc1 table.skills .skilllast {
+                      width: 19%
+                    }
+
+                    #document.skn-mlc1 table.skills .pad1 {
+                      width: 5%
+                    }
+
+                    #document.skn-mlc1 table.skills .pad2,
+                    #document.skn-mlc1 table.skills .pad3 {
+                      width: 1%
+                    }
+
+                    /* Common style for left and right box */
+                    #document.skn-mlc1 .left-box {
+                      padding: 30px;
+                      display: table-cell;
+                      position: relative;
+                      overflow: hidden
+                    }
+
+                    #document.skn-mlc1 .right-box {
+                      padding: 30px;
+                      display: table-cell;
+                      vertical-align: middle;
+                      position: relative;
+                      width: 100%
+                    }
+
+                    #document.skn-mlc1 .left-box>.section:first-child {
+                      padding-top: 0 !important
+                    }
+
+                    #document.skn-mlc1 .right-box>.section:first-child {
+                      padding-top: 0 !important
+                    }
+
+                    #document.skn-mlc1 .right-box>.section:first-child .heading,
+                    #document.skn-mlc1 .left-box>.section:first-child .heading {
+                      margin-bottom: 10px !important
+                    }
+
+                    /* Handling background color of left/right box */
+                    #document.skn-mlc1 .topsection .left-box:before {
+                      border-left: 1px solid transparent;
+                      content: '';
+                      position: absolute;
+                      width: 100%;
+                      height: 100%;
+                      left: 0;
+                      top: 0;
+                      opacity: .5;
+                      z-index: -1
+                    }
+
+                    #document.skn-mlc1 .topsection .right-box:before {
+                      content: '';
+                      position: absolute;
+                      width: 100%;
+                      height: 100%;
+                      left: 0;
+                      top: 0;
+                      opacity: .1
+                    }
+
+                    #document.skn-mlc1 .parentContainer .left-box:before {
+                      content: '';
+                      height: 100%;
+                      left: 0;
+                      top: 0;
+                      opacity: .2
+                    }
+
+                    /* Warning- Do not change below line keep it as it is because there is replace code in ExportProcess file for this line */
+                    #document.skn-mlc1 .parentContainer .left-box:before {
+                      position: absolute;
+                      width: 100%
+                    }
+
+                    #document.skn-mlc1 .parentContainer .right-box {
+                      background-color: #fff;
+                      vertical-align: top
+                    }
+
+                    /* Specifically for finalize page:START */
+                    #document.skn-mlc1 .topsection .left-box:before,
+                    #document.skn-mlc1 .parentContainer .left-box:before,
+                    #document.skn-mlc1 .topsection .right-box:before {
+                      background-color: #E5B0AD
+                    }
+
+                    #document.skn-mlc1 .parentContainer .left-box.dropable-container .SortableItem-sibling[data-react-beautiful-dnd-draggable="0"] {
+                      background-color: #E5B0AD
+                    }
+
+                    /* Specifically for finalize page:END */
+                  </style>
+                  <style type="text/css" id="dynamic" data-time="Tue May 05 2020 07:57:30 GMT+0530 (India Standard Time)">
+                    #document.skn-mlc1,
+                    #document.skn-mlc1 table {
+                      line-height: 17px
+                    }
+
+                    #document.skn-mlc1.pagesize {
+                      width: 588px
+                    }
+
+                    #document.skn-mlc1.fontsize {
+                      font-size: 12px
+                    }
+
+                    #document.skn-mlc1.fontface {
+                      font-family: Trebuchet MS
+                    }
+
+                    #document.skn-mlc1.hmargins {
+                      padding-left: 12px;
+                      padding-right: 12px
+                    }
+
+                    #document.skn-mlc1 .section {
+                      padding-top: 30px
+                    }
+
+                    #document.skn-mlc1 .topsection .section {
+                      padding-top: 0
+                    }
+
+                    #document.skn-mlc1 .firstparagraph {
+                      margin-top: 0 !important
+                    }
+
+                    #document.skn-mlc1 .paragraph {
+                      margin-top: 11px
+                    }
+
+                    #document.skn-mlc1 .singlecolumn,
+                    #document.skn-mlc1 .maincolumn {
+                      margin-left: 0px
+                    }
+
+                    #document.skn-mlc1 .parentContainer .left-box .singlecolumn {
+                      width: 166px
+                    }
+
+                    #document.skn-mlc1 .adnlLnks .singlecolumn {
+                      margin-left: 0
+                    }
+
+                    #document.skn-mlc1 table.skills td {
+                      padding-top: 8px
+                    }
+
+                    #document.skn-mlc1 .name {
+                      font-size: 30px;
+                      line-height: 30px
+                    }
+
+                    #document.skn-mlc1 .topsection .left-box:before,
+                    #document.skn-mlc1 .parentContainer .left-box:before,
+                    #document.skn-mlc1 .topsection .right-box:before {
+                      background-color: #39c3b1
+                    }
+
+                    #document.skn-mlc1 .address .circle {
+                      color: #39c3b1
+                    }
+
+                    #document.skn-mlc1 .address .circle {
+                      font-size: 11px;
+                      height: 17px;
+                      width: 17px;
+                      line-height: 17px
+                    }
+
+                    #document.skn-mlc1 .address .txtBold+.field,
+                    #document.skn-mlc1 .address .adrs-field>.addrCircle,
+                    #document.skn-mlc1 .topsection .adnlLnks .singlecolumn li {
+                      padding-left: 24px
+                    }
+
+                    #document.skn-mlc1 .address,
+                    #document.skn-mlc1 .adnlLnks {
+                      font-size: 12px;
+                      line-height: 15px
+                    }
+
+                    #document.skn-mlc1 .address2 {
+                      font-size: 12px;
+                      line-height: 15px
+                    }
+
+                    #document.skn-mlc1 .heading {
+                      font-size: 13px;
+                      line-height: 18px;
+                      margin-bottom: 15px
+                    }
+
+                    #document.skn-mlc1 .left-box,
+                    #document.skn-mlc1 .left-box .firstparagraph {
+                      width: 166px
+                    }
+
+                    #document.skn-mlc1 .topsection,
+                    #document.skn-mlc1 .parentContainer {
+                      margin-left: -12px !important;
+                      margin-right: -12px !important
+                    }
+
+                    /* specifically for finalize page */
+                    #document.skn-mlc1 .parentContainer .left-box.dropable-container .SortableItem-sibling[data-react-beautiful-dnd-draggable="0"] {
+                      background-color: #39c3b1
+                    }
+                  </style>
+                </div>
+                <div id="document" class="document fontsize fontface vmargins hmargins pagesize skn-mlc1 MLC1  MPR">
+                  <div id="CONTAINER_PARENT_0" class="topsection">
+                    <div id="CONTAINER_0" class="left-box">
+                      <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling  data-NAME">
+                        
+                        <div id="SECTION_NAME24694e8a-314a-48d9-b1cc-f15ec6911662" class="section notdraggable SECTION_NAME firstsection  " data-section-cd="NAME">
+                          <div class=" doc-item">
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_NAME_2706a310-114f-42da-86a6-0e33112725f4" class="paragraph PARAGRAPH_NAME firstparagraph  ">
+                                  <div>
+                                    <div class="name">
+                                      <div class="field" id="FIELD_FNAM" dependency="FNAM">Arindam</div>
+                                      <div class="field" id="FIELD_LNAM" dependency="LNAM">Das</div>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling  data-CNTC">
+                        
+                        <div id="SECTION_CNTC16bc05cf-82f8-401c-a50c-46b681d64758" class="section SECTION_CNTC notdraggable   " data-section-cd="CNTC">
+                          <div class=" doc-item">
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_CNTC_6ac83489-84d0-4199-bb0e-2e876ebff208" class="paragraph PARAGRAPH_CNTC firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="address">
+                                      <div class="adrs-field" dependency="EMAI">
+                                        <span class="txtBold circle">@</span>
+                                        <span class="field emailFld" id="FIELD_EMAI">dasarindam.mails@gmail.com</span>
+                                      </div>
+                                      <div class="adrs-field" dependency="HPHN">
+                                        <span class="txtBold circle">h</span><span class="field" id="FIELD_HPHN">(+91) 9831657983</span>
+                                      </div>
+
+                                      <div class="adrs-field" dependency="STRT|CITY|STAT|ZIPC">
+                                        <span class="txtBold circle">a</span>
+                                        <span class="addrCircle">
+                                          <span class="field" id="FIELD_STRT"></span>
+                                          <span class="field" id="FIELD_CITY">Kolkata</span><span dependency="CITY+STAT">, </span>
+                                          <span class="field" id="FIELD_STAT">WB</span>
+                                          <span class="field" id="FIELD_ZIPC">700075</span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling  data-ALNK">
+                        
+                        <div id="SECTION_ALNK5d2620ca-9312-5e06-384c-9729dfbda0da" class="section adnlLnks notdraggable SECTION_ALNK   " data-section-cd="ALNK">
+                          <div class=" doc-item">
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_ALNK_f1527536-c1cd-66d5-d568-0fe718d493a8" class="paragraph PARAGRAPH_ALNK firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <ul class="singlecolumn">
+                                      <li dependency="LNK1"><span class="field" id="FIELD_LNK1">github.com/arindas</span></li>
+
+                                    </ul>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div id="CONTAINER_1" class="right-box">
+                      <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling  data-SUMM">
+                        
+                        <div id="SECTION_SUMM831e3fff-ea96-466a-b544-dac364447c4c" class="section notdraggable SECTION_SUMM   " data-section-cd="SUMM">
+                          <div class=" doc-item">
+                            <div class="heading">
+                              <div class="sectiontitle" id="SECTIONNAME_SUMM">Professional Summary</div>
+                            </div>
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_SUMM_b129149d-906b-2d7d-0fc0-15121a8323b7" class="paragraph PARAGRAPH_SUMM firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="field singlecolumn" id="FIELD_FRFM">
+                                      <p>Innovative
+                                        Solution Architect with in-depth understanding of software deployment
+                                        and system design illustrated over 2 years of experience in similar
+                                        roles.</p>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="CONTAINER_PARENT_1" class="parentContainer">
+                    <div id="CONTAINER_2" class="left-box">
+                      <div data-react-beautiful-dnd-draggable="1" class="sortable-item section-container SortableItem-sibling  data-HILT">
+                        
+                        <div>
+                          <div class=" doc-item">
+                            <div class="heading">
+                              <div class="sectiontitle" id="SECTIONNAME_HILT">Skills</div>
+                            </div>
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_HILT_73214064-4806-4d44-ac16-7a6466d560f7" class="paragraph PARAGRAPH_HILT firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="singlecolumn maincolumn">
+                                      <span class="paddedline" id="FIELD_SKC1">
+                                        <ul>
+                                          <li>C, C++(11, 14, 17)</li>
+                                          <li>Java</li>
+                                          <li>Python3</li>
+                                          <li>Javascript ES6</li>
+                                          <li>Golang</li>
+                                          <li>Linux</li>
+                                          <li>Android</li>
+                                          <li>Tensorflow</li>
+                                          <li>Amazon Web Services</li>
+                                          <li>Kafka</li>
+                                          <li>Docker</li>
+                                          <li>Internet of Things</li>
+                                          <li>Raspberry Pi</li>
+                                          <li>Systems Architecture and Design</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div data-react-beautiful-dnd-draggable="1" class="sortable-item section-container SortableItem-sibling  data-EDUC">
+                        
+                        <div id="SECTION_EDUC76852b86-084f-4d25-b656-ae1f8e1686c2" class="section education SECTION_EDUC   multi-para" data-section-cd="EDUC">
+                          <div class=" doc-item">
+                            <div class="heading">
+                              <div class="sectiontitle" id="SECTIONNAME_EDUC">Education</div>
+                            </div>
+                            <div class="">
+                              <div class="sortableInner">
+                                <div id="PARAGRAPH_EDUC_d00f1a7a-b712-4d38-882f-1726fffe569f" class="paragraph PARAGRAPH_EDUC firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="singlecolumn">
+                                      <span class="paddedline" dependency="SCHO">
+                                        <span class="companyname txtBold" id="FIELD_SCHO">Kalinga Institute Of Industrial Technology</span>
+                                      </span>
+                                      <span class="paddedline" dependency="SCIT|SSTA|GRYR">
+                                        <span class="joblocation jobcity" id="FIELD_SCIT">Bhubaneswar</span>
+                                        <span dependency="GRYR+SSTA|SCIT" class="septr"></span>                                        
+                                        <span class="joblocation jobstate" id="FIELD_SSTA">Odhisa</span>
+                                        
+                                        
+                                      <span class="paddedline degreeGap" dependency="DGRE|STUY|GRPA">
+                                        <span class="degree txtBold txtItl" id="FIELD_DGRE">B. Tech</span><span dependency="DGRE+STUY">: </span>
+                                        <span class="programline" id="FIELD_STUY">Computer Science &amp; Engineering;</span>
+                                        <br>
+                                        <span class="xslt_static_change">Expected in </span><span id="FIELD_GRYR" format="%m/%Y">06/2021</span>
+                                      </span>
+                                      </span>
+                                      <span class="field" id="FIELD_FRFM"></span>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                                <div id="PARAGRAPH_EDUC_12b55a20-c42b-42f7-b8b0-be9bea61c162" class="paragraph PARAGRAPH_EDUC  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="singlecolumn">
+                                      <span class="paddedline" dependency="SCHO">
+                                        <span class="companyname txtBold" id="FIELD_SCHO">Don Bosco School</span>
+                                      </span>
+                                      <span class="paddedline" dependency="SCIT|SSTA|GRYR">
+                                        <span class="joblocation jobcity" id="FIELD_SCIT">Bandel</span>
+                                        <span class="joblocation jobstate" id="FIELD_SSTA"></span>
+                                        <span dependency="GRYR+SSTA|SCIT" class="septr"></span>
+                                        <span class="xslt_static_change displayNoneThisField">Expected in </span><span id="FIELD_GRYR" format="%m/%Y">03/2017</span>
+                                      </span>
+                                      <span class="paddedline degreeGap" dependency="DGRE|STUY|GRPA">
+                                        <span class="degree txtBold txtItl" id="FIELD_DGRE">ISC</span>
+                                        <span class="programline" id="FIELD_STUY"></span>
+                                        <span class="field" id="FIELD_GRPA"></span>
+                                      </span>
+                                      <span class="field" id="FIELD_FRFM"></span>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div data-react-beautiful-dnd-draggable="1" class="sortable-item section-container SortableItem-sibling  data-CERT">
+                        
+                        <div id="SECTION_CERT48161449-e8ba-4830-90fe-775bc2042b6a" class="section SECTION_CERT   " data-section-cd="CERT">
+                          <div class=" doc-item">
+                            <div class="heading">
+                              <div class="sectiontitle" id="SECTIONNAME_CERT">Certifications</div>
+                            </div>
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_CERT_605e93a0-e0d6-42cc-858c-5b5a9503c064" class="paragraph PARAGRAPH_CERT firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="field singlecolumn" id="FIELD_FRFM">
+                                      <p>Google India Challenge Scholarship - Android Developer - Udacity</p>
+                                      <p>February 2018 - May 2018</p>
+                                    </div>
+                                  </div>
+                                  <div class="doc-overlay para-overlay" style="left:-14px; right: -14px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div id="CONTAINER_3" class="right-box">
+                      <div data-react-beautiful-dnd-draggable="1" class="sortable-item section-container SortableItem-sibling  data-EXPR">
+                        
+                        <div data-section-cd="EXPR" class="multi-para">
+                          <div class=" doc-item">
+                            <div class="heading">
+                              <div class="sectiontitle" id="SECTIONNAME_EXPR">Work History</div>
+                            </div>
+                            <div class="">
+                              <div class="sortableInner">
+                                <div id="PARAGRAPH_EXPR_f9e6cd06-cc2d-450e-9d02-15ae77249663" class="paragraph PARAGRAPH_EXPR firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="singlecolumn">
+                                      <span class="paddedline" dependency="COMP|JCIT|JSTA|JTIT|JSTD|EDDT">
+                                        <span class="companyname txtBold" id="FIELD_COMP">DeepWrex Technologies</span>
+                                        <span dependency="COMP+JTIT">- </span><span class="jobtitle txtBold" id="FIELD_JTIT">Bhubaneswar - Solution Architect</span>
+                                        <br dependency="COMP+JTIT">
+                                        <span class="joblocation jobcity txtItl" id="FIELD_JCIT"></span>
+                                        <span class="joblocation jobstate txtItl" id="FIELD_JSTA"></span>
+
+                                        <span class="jobdates txtItl" id="FIELD_JSTD" format="%m/%Y">04/2019</span><span dependency="JSTD+EDDT"> - </span><span class="jobdates txtItl" id="FIELD_EDDT" format="%m/%Y">Current</span>
+                                      </span>
+                                      <span class="jobline" id="FIELD_JDES">
+                                        <ul>
+                                          <li>Implemented a PDF document parser for extracting text from digitized medical reports.</li>
+                                          <li>Developed an Optical Character Recognition solution for scanned medical reports.</li>
+                                          <li>Developed and deployed a scalable, low latency Medical Report Analysis pipeline.</li>
+                                          <li>Assisted NLP team in responses to customer and prospective
+                                            customer evaluations, escalations and technical requirements documents.</li>
+                                          <li>Worked with clients post-implementation on user testing, debugging, support and maintenance.</li>
+                                          <li>Managed project planning, resource allocation, scope, schedule, status and documentation.</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                                <div id="PARAGRAPH_EXPR_c5f84ecf-0522-49cd-b93a-c76108949cb4" class="paragraph PARAGRAPH_EXPR  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="singlecolumn">
+                                      <span class="paddedline" dependency="COMP|JCIT|JSTA|JTIT|JSTD|EDDT">
+                                        <span class="companyname txtBold" id="FIELD_COMP">KIITSAT</span>
+                                        <span dependency="COMP+JTIT">- </span><span class="jobtitle txtBold" id="FIELD_JTIT">Student Researcher</span>
+                                        <br dependency="COMP+JTIT">
+                                        <span class="joblocation jobcity txtItl" id="FIELD_JCIT">Bhubaneswar</span><span dependency="JCIT+JSTA">, </span>
+                                        <span class="joblocation jobstate txtItl" id="FIELD_JSTA">Odisha</span>
+                                        <span dependency="JCIT+JSTA" class="septr"></span>
+                                        <span class="jobdates txtItl" id="FIELD_JSTD" format="%m/%Y">04/2018</span><span dependency="JSTD+EDDT"> - </span><span class="jobdates txtItl" id="FIELD_EDDT" format="%m/%Y">11/2019</span>
+                                      </span>
+                                      <span class="jobline" id="FIELD_JDES">
+                                        <ul>
+                                          
+                                          <li>Developed a minimal raspberry pi kernel with memory allocation and TTL I/O support</li>
+                                          <li>Trained fellow team members on OS concepts and Linux.</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div data-react-beautiful-dnd-draggable="1" class="sortable-item section-container SortableItem-sibling  data-ADDI">
+                        
+                        <div id="SECTION_ADDIea68a430-e44c-4073-8791-cfebdaa379a5" class="section SECTION_ADDI   " data-section-cd="ADDI">
+                          <div class=" doc-item">
+                            <div class="heading">
+                              <div class="sectiontitle" id="SECTIONNAME_ADDI">Projects</div>
+                            </div>
+                            <div class="">
+                              <div class="">
+                                <div id="PARAGRAPH_ADDI_756207c5-4967-438b-af7f-538416a8b561" class="paragraph PARAGRAPH_ADDI firstparagraph  ">
+                                  <div class="clearfix doc-item">
+                                    <div class="field singlecolumn" id="FIELD_FRFM">
+                                      <ul>
+                                        <li>Order status chatbot: A chatbot for stating the current status of a given order in a supply chain.</li>
+                                        <li>Popdoc: A library for parsing pdf documents into plain text. I built this as a part of the medical report analysis pipeline at DeepWrex.</li>
+                                        <li>Rubix: An optimal data-structure for representing Rubik's
+                                 	cubes. Speciality: all Rubik's cube moves can be performed in linear time, w.r.t to order of cube.</li>
+                                        <li>FontMNIST: A dataset generation tool for printed text. It was built for training OCR algorithms</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+        </section></div>
+      </section>
+
+
+
+</main></form></body></html>
