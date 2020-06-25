@@ -767,10 +767,7 @@
                                       <span class="jobline" id="FIELD_JDES">
                                         <ul>
                                           <li>Implemented a PDF document parser for extracting text from digitized medical reports.</li>
-                                          <li>Developed an Optical Character Recognition solution for scanned medical reports.</li>
                                           <li>Developed and deployed a scalable, low latency Medical Report Analysis pipeline.</li>
-                                          <li>Assisted NLP team in responses to customer and prospective
-                                            customer evaluations, escalations and technical requirements documents.</li>
                                           <li>Worked with clients post-implementation on user testing, debugging, support and maintenance.</li>
                                           <li>Managed project planning, resource allocation, scope, schedule, status and documentation.</li>
                                         </ul>
@@ -779,29 +776,7 @@
                                   </div>
                                   
                                 </div>
-                                <div id="PARAGRAPH_EXPR_c5f84ecf-0522-49cd-b93a-c76108949cb4" class="paragraph PARAGRAPH_EXPR  ">
-                                  <div class="clearfix doc-item">
-                                    <div class="singlecolumn">
-                                      <span class="paddedline" dependency="COMP|JCIT|JSTA|JTIT|JSTD|EDDT">
-                                        <span class="companyname txtBold" id="FIELD_COMP">KIITSAT</span>
-                                        <span dependency="COMP+JTIT">- </span><span class="jobtitle txtBold" id="FIELD_JTIT">Student Researcher</span>
-                                        <br dependency="COMP+JTIT">
-                                        <span class="joblocation jobcity txtItl" id="FIELD_JCIT">Bhubaneswar</span><span dependency="JCIT+JSTA">, </span>
-                                        <span class="joblocation jobstate txtItl" id="FIELD_JSTA">Odisha</span>
-                                        <span dependency="JCIT+JSTA" class="septr"></span>
-                                        <span class="jobdates txtItl" id="FIELD_JSTD" format="%m/%Y">04/2018</span><span dependency="JSTD+EDDT"> - </span><span class="jobdates txtItl" id="FIELD_EDDT" format="%m/%Y">11/2019</span>
-                                      </span>
-                                      <span class="jobline" id="FIELD_JDES">
-                                        <ul>
-                                          
-                                          <li>Developed a minimal raspberry pi kernel with memory allocation and TTL I/O support</li>
-                                          <li>Trained fellow team members on OS concepts and Linux.</li>
-                                        </ul>
-                                      </span>
-                                    </div>
-                                  </div>
-                                  
-                                </div>
+                                
                               </div>
                             </div>
                           </div>
@@ -820,12 +795,9 @@
                                 <div id="PARAGRAPH_ADDI_756207c5-4967-438b-af7f-538416a8b561" class="paragraph PARAGRAPH_ADDI firstparagraph  ">
                                   <div class="clearfix doc-item">
                                     <div class="field singlecolumn" id="FIELD_FRFM">
-                                      <ul>
-                                        <li>Order status chatbot: A chatbot for stating the current status of a given order in a supply chain.</li>
-                                        <li>Popdoc: A library for parsing pdf documents into plain text. I built this as a part of the medical report analysis pipeline at DeepWrex.</li>
-                                        <li>Rubix: An optimal data-structure for representing Rubik's
-                                 	cubes. Speciality: all Rubik's cube moves can be performed in linear time, w.r.t to order of cube.</li>
-                                        <li>FontMNIST: A dataset generation tool for printed text. It was built for training OCR algorithms</li>
+                                      <ul> 
+                                        <li><b>Popdoc - A library for parsing pdf documents. </b> It was implemented in C++ using the open source poppler pdf library. The NLP team required the rows in the medical reports to be parsed out as distinct lines, seperate from normal text. This library was implemented to address that problem. I also integrated Google's "tesseract" optical character recognition library for regcognizing character glyphs from scanned images. The lexer and the parser have low coupling but high cohesion, making the library highly extensible. The project build management was done with CMake.</li>
+                                        <li><b>MedEPal - A medical report analysis pipeline. </b> This is a distributed medical report analysis pipeline. This pipeline was designed a collection of microservices, which communicate among each other using Apache Kafka. I worked on the AWS S3 PDF document fetcher service and PDF text extraction service.</li>
                                       </ul>
                                     </div>
                                   </div>
