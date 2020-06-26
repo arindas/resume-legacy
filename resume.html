@@ -117,7 +117,7 @@
                     }
 
                     #document.skn-mlc1 ul li:before {
-                      content: '\2022';
+                      content: '\f00c';
                       font-size: 9px;
                       position: absolute;
                       left: 0;
@@ -795,10 +795,10 @@
                                 <div id="PARAGRAPH_ADDI_756207c5-4967-438b-af7f-538416a8b561" class="paragraph PARAGRAPH_ADDI firstparagraph  ">
                                   <div class="clearfix doc-item">
                                     <div class="field singlecolumn" id="FIELD_FRFM">
-                                      <ul> 
-                                        <li><b>Popdoc - A library for parsing pdf documents.</b> It was implemented in C++ using the open source "poppler" pdf library. The NLP team required the rows in the medical reports to be parsed out as distinct lines, seperate from normal text. Popdoc was implemented to address this problem. I also integrated Google's "tesseract" optical character recognition library for regcognizing character glyphs from images in scanned PDF documents. The lexer and the parser have low coupling but high cohesion, making the library highly extensible. The project build management was done with CMake.</li>
-                                        <li><b>MedEPal - A medical report analysis pipeline.</b> This is a distributed medical report analysis pipeline. This pipeline was designed a collection of microservices, which communicate among each other using Apache Kafka. I worked on the AWS S3 PDF document fetcher service and PDF text extraction service. It was implemented using the AWS C++ SDK, rdkafka C++ library, and Popdoc.</li>
-                                        <li><b>Rubix - An optimal data-structure for representing Rubik's cubes.</b> Speciality: all Rubik's cube moves can be performed in linear <i>O(n)</i> time, with respect to the order of cube. Implemented from scratch in Java.</li>
+                                      <ul>
+                                        <li><b>Popdoc - A library for parsing pdf documents.</b> It was implemented in C++ using the open source "poppler" pdf library. The NLP team required the rows in the medical reports to be parsed out as distinct lines, seperate from normal text. Popdoc was implemented to address this problem. I also integrated Google's "tesseract" optical character recognition library for regcognizing character glyphs from images in scanned PDF documents.</li>
+                                        <li><b>MedEPal - A medical report analysis pipeline.</b> This is a distributed medical report analysis pipeline. This pipeline was designed a collection of microservices, which communicate among each other using Apache Kafka. Each service was packaged as a Docker container. We used Docker Compose for container orchestration. I implemented the AWS S3 Document fetcher service and PDF OCR text extraction service. The dependencies for these services included the AWS C++ SDK, rdkafka C++ library, and Popdoc.</li>
+                                        <li></li>
                                       </ul>
                                     </div>
                                   </div>
