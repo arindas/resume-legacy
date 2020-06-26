@@ -219,7 +219,7 @@
 
                     #document.skn-mlc1 .address .circle {
                       background: #fff;
-                      border-radius: 100%;
+                      border-radius: 10%;
                       color: #E5B0AD;
                       height: 15px;
                       line-height: 15px;
@@ -244,7 +244,7 @@
                       min-height: 15px
                     }
 
-                    #document.skn-mlc1 .address .adrs-field>.addrCircle {
+                    #document.skn-mlc1 .address .adrs-field.addrCircle {
                       display: table-cell;
                       padding-left: 20px
                     }
@@ -537,15 +537,15 @@
                                   <div class="clearfix doc-item">
                                     <div class="address">
                                       <div class="adrs-field" dependency="EMAI">
-                                        <span class="txtBold circle">@</span>
+                                        <span class="txtBold circle"></span>
                                         <span class="field emailFld" id="FIELD_EMAI">dasarindam.mails@gmail.com</span>
                                       </div>
                                       <div class="adrs-field" dependency="HPHN">
-                                        <span class="txtBold circle">h</span><span class="field" id="FIELD_HPHN">(+91) 9831657983</span>
+                                        <span class="txtBold circle"></span><span class="field" id="FIELD_HPHN">(+91) 9831657983</span>
                                       </div>
 
                                       <div class="adrs-field" dependency="STRT|CITY|STAT|ZIPC">
-                                        <span class="txtBold circle">a</span>
+                                        <span class="txtBold circle"></span>
                                         <span class="addrCircle">
                                           <span class="field" id="FIELD_STRT"></span>
                                           <span class="field" id="FIELD_CITY">Kolkata</span><span dependency="CITY+STAT">, </span>
@@ -553,37 +553,20 @@
                                           <span class="field" id="FIELD_ZIPC">700075</span>
                                         </span>
                                       </div>
+
+                                      <div class="adrs-field" dependency="EMAI">
+                                        <span class="txtBold circle"></span>
+                                        <span class="field emailFld" id="FIELD_EMAI">github.com/arindas</span>
+                                      </div>
                                     </div>
                                   </div>
-                                  
                                 </div>
                               </div>
                             </div>
                           </div>
-                          
                         </div>
                       </div>
-                      <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling  data-ALNK">
-                        
-                        <div id="SECTION_ALNK5d2620ca-9312-5e06-384c-9729dfbda0da" class="section adnlLnks notdraggable SECTION_ALNK   " data-section-cd="ALNK">
-                          <div class=" doc-item">
-                            <div class="">
-                              <div class="">
-                                <div id="PARAGRAPH_ALNK_f1527536-c1cd-66d5-d568-0fe718d493a8" class="paragraph PARAGRAPH_ALNK firstparagraph  ">
-                                  <div class="clearfix doc-item">
-                                    <ul class="singlecolumn">
-                                      <li dependency="LNK1"><span class="field" id="FIELD_LNK1">github.com/arindas</span></li>
-
-                                    </ul>
-                                  </div>
-                                  
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          
-                        </div>
-                      </div>
+                      
                     </div>
                     <div id="CONTAINER_1" class="right-box">
                       <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling  data-SUMM">
@@ -621,7 +604,7 @@
                         <div>
                           <div class=" doc-item">
                             <div class="heading">
-                              <div class="sectiontitle" id="SECTIONNAME_HILT">Skills</div>
+                              <div class="sectiontitle" id="SECTIONNAME_HILT"> Skills</div>
                             </div>
                             <div class="">
                               <div class="">
@@ -661,7 +644,7 @@
                         <div id="SECTION_EDUC76852b86-084f-4d25-b656-ae1f8e1686c2" class="section education SECTION_EDUC   multi-para" data-section-cd="EDUC">
                           <div class=" doc-item">
                             <div class="heading">
-                              <div class="sectiontitle" id="SECTIONNAME_EDUC">Education</div>
+                            <div class="sectiontitle" id="SECTIONNAME_EDUC"> Education</div>
                             </div>
                             <div class="">
                               <div class="sortableInner">
@@ -722,7 +705,7 @@
                         <div id="SECTION_CERT48161449-e8ba-4830-90fe-775bc2042b6a" class="section SECTION_CERT   " data-section-cd="CERT">
                           <div class=" doc-item">
                             <div class="heading">
-                              <div class="sectiontitle" id="SECTIONNAME_CERT">Achievements</div>
+                              <div class="sectiontitle" id="SECTIONNAME_CERT"> Achievements</div>
                             </div>
                             <div class="">
                               <div class="">
@@ -730,7 +713,8 @@
                                   <div class="clearfix doc-item">
                                     <div class="field singlecolumn" id="FIELD_FRFM">
                                       <p>Nvidia Inception Incubation Program</p>
-                                      <p>Secured for DeepWrex Technologies</p>
+                                      <br>
+                                      <p>DeepWrex Technologies</p>
                                     </div>
                                   </div>
                                   <div class="doc-overlay para-overlay" style="left:-14px; right: -14px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div>
@@ -757,7 +741,7 @@
                                     <div class="singlecolumn">
                                       <span class="paddedline" dependency="COMP|JCIT|JSTA|JTIT|JSTD|EDDT">
                                         <span class="companyname txtBold" id="FIELD_COMP">DeepWrex Technologies</span>
-                                        <span dependency="COMP+JTIT">- </span><span class="jobtitle txtBold" id="FIELD_JTIT">Bhubaneswar - Cofounder, Solution Architect</span>
+                                        <span dependency="COMP+JTIT">- </span><span class="jobtitle txtBold" id="FIELD_JTIT">Bhubaneswar - Partner, Solution Architect</span>
                                         <br dependency="COMP+JTIT">
                                         <span class="joblocation jobcity txtItl" id="FIELD_JCIT"></span>
                                         <span class="joblocation jobstate txtItl" id="FIELD_JSTA"></span>
@@ -796,9 +780,9 @@
                                   <div class="clearfix doc-item">
                                     <div class="field singlecolumn" id="FIELD_FRFM">
                                       <ul>
-                                        <li><b>Popdoc - A library for parsing pdf documents.</b> It was implemented in C++ using the open source "poppler" pdf library. The NLP team required the rows in the medical reports to be parsed out as distinct lines, seperate from normal text. Popdoc was implemented to address this problem. I also integrated Google's "tesseract" optical character recognition library for regcognizing character glyphs from images in scanned PDF documents.</li>
-                                        <li><b>MedEPal - A medical report analysis pipeline.</b> This is a distributed medical report analysis pipeline. This pipeline was designed a collection of microservices, which communicate among each other using Apache Kafka. Each service was packaged as a Docker container. We used Docker Compose for container orchestration. I implemented the AWS S3 Document fetcher service and PDF OCR text extraction service. The dependencies for these services included the AWS C++ SDK, rdkafka C++ library, and Popdoc.</li>
-                                        <li></li>
+                                        <li><b>Popdoc - A library for parsing pdf documents.</b> The NLP team required the rows in the medical reports to be parsed out as distinct lines, seperate from normal text. Popdoc was implemented to address this problem. Dependencies include the poppler pdf library for parsing the PDF format, and the tesseract OCR library for reading character glyph from images in scanned PDF documents.</li>
+                                        <li><b>MedEPal - A medical report analysis pipeline.</b> This is a distributed medical report analysis pipeline. This pipeline was designed a collection of microservices, which communicate among each other using Apache Kafka. Each service was packaged as a Docker container, and orchestrated using Docker Compose. I implemented the AWS S3 Document fetcher and PDF OCR text extraction services.</li>
+                                        <li><b>Order status chatbot</b> - States the current status of a given order in a supply chain. Built as an entry for the Dell Hack2Hire hackathon. The primary problem was to provide an unified order status reporting solution, while providing real time order data analytics. We integrated a DialogFlow agent to a Google Cloud Function for reporting order status from Google Cloud Firestore.</li>
                                       </ul>
                                     </div>
                                   </div>
