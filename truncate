@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+## Truncates all pages after the first page from the ./resume.pdf
+
+mv ./resume.pdf /tmp/resume.pdf
+pdftk /tmp/resume.pdf cat 1 output ./resume.pdf
