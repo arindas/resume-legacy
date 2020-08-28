@@ -1,0 +1,16 @@
+C, C++(11, 14, 17)
+Java
+Python3
+Golang
+Linux
+Shell Scripting(Sh, Bash)
+Android
+Deep Learning
+Tensorflow
+Systemd(general usage)
+Docker
+QEMU
+Amazon Web Services
+Kafka
+Raspberry Pi
+Systems Architecture and Design
