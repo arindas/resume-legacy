@@ -15,4 +15,4 @@ for my resume. Feel free to tweak the given values.
 
 This is what the template looks like:
 
-![resume image](https://github.com/arindas/resume/blob/master/assets/resume.png)
+![resume image](https://github.com/arindas/resume/blob/master/assets/resume.jpg)
